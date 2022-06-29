@@ -132,6 +132,12 @@ grid1 = GridProblem(initial=(1,3), goal =(9,9) ,obstacles=obstacles)
 s1 = astar_search(grid1)
 path_states(s1)
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## OUTPUT:
 ![Screenshot (69)](https://user-images.githubusercontent.com/75234646/168859268-afe1505f-6a2e-40db-9cb9-f891dde621ec.png)
 The algorithm is able to find the solution path for the given problem. But the solution path, might not be the shortest path to reach the goal state.
